@@ -7,4 +7,7 @@ import { Component } from "@angular/core";
 })
 export class NovaTransferComponent{
 
+  transferir(){
+    console.log('Solicitado Nova Transferência');
+  }
 }
